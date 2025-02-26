@@ -5,4 +5,4 @@ it has a dashboard for registred users to see their daily increase or decrease o
 It also has an admin panel to make some changes to its registered users.
 
 <h3>Technologies used</h3>
-PHP, JAVASCRIPT, HTML, CSS, AJAX, SQL
+PHP, JAVASCRIPT, HTML, CSS, AJAX, SQL database
