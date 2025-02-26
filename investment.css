@@ -1,0 +1,324 @@
+#footer{margin-top:4% !important;}
+
+
+
+
+/* ribbon */
+
+
+.ribbon{
+	height:100px;
+	width:105px;
+	margin-top:-5px;
+	margin-left:-7px;
+	position:absolute;
+	overflow:hidden;
+	z-index:;
+	}
+
+
+
+	.popular{
+		position:absolute;
+		transform: rotate(270deg);
+		margin-top:73px;
+		margin-left:-21px;
+		font-size:15px;
+		color:#fff;
+		 font-family:arial;
+
+	}
+
+.ribbon div{
+
+	width:30px;
+	height:159px;
+
+position:absolute;
+	background-color:#106eea;
+
+	margin-top:-42px;
+	margin-left:30px;
+
+
+	-ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Safari */
+transform: rotate(45deg);
+
+}
+
+.ribbon:before{
+	content: "";
+	position:absolute;
+	width:10px; height:10px;
+	background-color:#134484;
+	z-index:-1;
+	right:0px;
+}
+
+.ribbon:after{
+content: "";
+	position:absolute;
+	width:10px; height:10px;
+	background-color:#134484;
+	z-index:-1;
+	bottom:0px;
+	left:0px;
+}
+
+
+/*end of ribbon */
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+	font-family:times-new-roman;
+    float: left;
+
+margin-right: 10px;
+
+
+
+}
+.row{display:flex; justify-content:center;}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.investment_plans
+{
+margin-bottom: 10px;
+}
+
+
+#allplans{
+
+			margin-top: 120px;
+}
+
+#allplans .column{
+	margin-top: -70px;
+	  box-shadow: 5px 5px 18px #EAB6AB;
+
+
+}
+
+.investment_title
+{
+	padding-top:80px;
+	text-align: center;
+}
+
+.investment_button{
+	background-color: #106eea;
+	outline: none;
+	border-style: none;
+	width:160px;
+	height:35px;
+	color:white;
+	border-radius: 8px;
+	letter-spacing: 1px;
+	margin-bottom: 7px;
+}
+
+.investment_subt
+{
+	font-weight: bold;
+	font-size:26px;
+	font-family: roboto;
+}
+.package
+{
+	color:#106eea;
+}
+
+
+.investment_plans{
+	margin-top: 60px;
+	background-color:#FCF8F8;
+		height:750px;
+}
+.row #dashboard{font-weight:bold; font-size:20px; color:#3a352d; font-family:arial;}
+#balance2{float:right; padding-right:15px;  margin-top:100px; color:#3a352d;   font-size: 4vh; font-weight:bold;}
+#deposit2{float:right; padding-right:15px;  margin-top:90px; color:#3a352d;   font-size: 4vh; font-weight:bold;}
+#percent{background-color:#52d444; font-family:arial; color:#ffff; border-radius:10px; display:flex; justify-content:center; height:19px; font-size:13px; font-weight:bold; padding-top:3px; width:66px; position:absolute; }
+#secondcolumn #percent{margin-top:110px; margin-left:20px;}
+#line{width:25.5%;margin-left:1.4%;   margin-top:170px; background-color:#52d444; height:5.5px; border-radius:4px;  position:absolute; }
+
+
+#bonus2{float:right; padding-right:10px;  margin-top:100px; color:#3a352d;   font-size: 4vh; font-weight:bold;}
+#available1{float:left; margin-left:-67px;  margin-top:45px; color:#686156;  position:absolute; font-size: 2vh; font-weight:;}
+#dashboard{margin-top:100px; margin-bottom:20px; margin-left:80px;}
+body{}
+#firstcolumn,#secondcolumn,#thirdcolumn,#fourthcolumn{
+
+	background-color:#fff;  height:460px;
+
+
+}
+
+
+#allcontent{
+margin-top:15.5%;
+font-family:arial;
+}
+#starter,#amountplus,#days,#months,#referal,#profit,#support,#deposit{
+	display:flex; justify-content:center;
+	margin-top:15px;
+
+	}
+#starter{color:#106eea; font-weight:bold; font-size:25px;}
+#amountplus{font-size:45px; font-weight:;}
+#deposit button{background-color:#106eea;height:40px;width:90px;border-radius:15px;
+border:none; color:#fff; font-size:15px;
+}
+#days,#months,#referal,#profit,#support,#deposit{font-size:15px; color:#44484d;}
+
+
+
+
+
+#about1{float:right; padding-left:40px; text-align:;}
+#about2{float:right; padding-left:40px; text-align:center;}
+#about3{float:right; width:40%; padding-right:10px; text-align:center;}
+#year{width:45%;}
+
+#secondrow{
+	background-color:#fff; width:87%;margin-top:40px; height:50px;
+	text-align:center; padding-top:30px; color:#3a352d; font-weight:bold;
+}
+
+
+#tablerow{
+	background-color:#fff; width:87%;margin-top:40px; height:75%;
+	text-align:center; padding-top:30px; color:#3a352d; font-weight:bold;
+}
+
+
+table, td, th {
+    border-top: 1px solid #c9c7c4;
+}
+
+table {
+	font-family:arial;
+	margin:0 auto;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+th {
+    height: 40px; font-weight:bold;
+	text-align:left; font-size:16px;
+	color:#5a5854;
+}
+caption{
+	padding-bottom:20px; font-size:2.5vh;
+}
+
+#status{background-color:#52d444; font-size:12px; padding:2.5px; color:white; border-radius:4px;  text-align:center;}
+#obj:hover{background-color:#ebe7e1;}
+td{
+	text-align:left;
+	height:50px;
+	font-size:14px;
+	color:grey;
+}
+
+ #year{color:#817e79; font-size:14px; margin-left:6%; font-weight:bold;}
+ #about3{color:#817e79; font-size:14px; margin-left:10%; font-weight:bold;}
+ #about3 a{color:#817e79; font-size:14px; text-decoration:none; font-weight:bold;}
+ #about3 a:hover{color:#a8a5a0;}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+
+	#allplans .column{
+		  box-shadow: 5px 5px 18px #EAB6AB;
+				margin-top:30px;
+	}
+
+#allplans{
+	margin-top:10px;
+}
+
+#firstcolumn,#secondcolumn,#thirdcolumn,#fourthcolumn{
+
+	background-color:#fff;  height:540px;
+
+
+}
+
+
+	#dashboard{margin-top:30px;  }
+	#dashboard{margin-top:100px; margin-bottom:20px; margin-left:10px;}
+	#firstcolumn{margin-top:-20px;}
+	#year{text-align:center;}
+
+
+
+	#about3{float:right; width:100%; padding-right:10px; text-align:center;}
+#year{width:90%;}
+
+	 #year{color:#817e79; font-size:14px; margin-left:1%; font-weight:bold;}
+	#about3{color:#817e79; font-size:14px; margin-left:0%; font-weight:bold;}
+
+th{font-size:14px;}
+td{font-size:12px;}
+table{width:900px;}
+
+
+	#secondrow{width:94%;}
+	#tablerow{width:94%;  margin-top:0px; margin-bottom:270px;}
+	#line{width:89%; }
+.row{display:block;}
+
+    .column {
+        width:94%;
+		margin-left:10px;
+    }
+
+
+	#about3{}
+
+}
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+	#dashboard{margin-top:30px;}
+
+	#secondrow{width:94%;}
+	#tablerow{width:94%; margin-bottom:270px; margin-top:0px;}
+	#line{width:89%; }
+.row{display:block;}
+#footer{margin-top:20% !important;}
+    .column {
+
+
+        width:94%;
+		margin-left:10px;
+    }
+
+
+	 #year{color:#817e79; font-size:13.5px; margin-left:2%; font-weight:bold;}
+	#about3{color:#817e79; font-size:14px; margin-left:0%; font-weight:bold;}
+	#about3 a{color:#817e79; text-decoration:none;}
+
+}

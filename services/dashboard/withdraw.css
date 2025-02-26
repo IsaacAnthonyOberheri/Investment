@@ -1,0 +1,168 @@
+/* Create two equal columns that floats next to each other */
+.column {
+	font-family:times-new-roman;
+    float: left;
+    width: 90%;
+
+margin-right:10px;
+margin-right:10px;
+	margin-top:10px;
+}
+.row{display:flex; justify-content:center;}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.row #dashboard{font-weight:bold; font-size:20px; color:#3a352d; font-family:arial;}
+#balance,#deposit,#bonus{margin-left:20px; color:#3a352d; position:absolute; margin-top:25px; font-size: 20px; font-weight:bold;}
+#balance2{float:right; padding-right:15px;  margin-top:100px; color:#3a352d;   font-size: 4vh; font-weight:bold;}
+#deposit2{float:right; padding-right:15px;  margin-top:90px; color:#3a352d;   font-size: 4vh; font-weight:bold;}
+#percent{background-color:#52d444; font-family:arial; color:#ffff; border-radius:10px; display:flex; justify-content:center; height:19px; font-size:13px; font-weight:bold; padding-top:3px; width:66px; position:absolute; }
+#secondcolumn #percent{margin-top:110px; margin-left:20px;}
+#line{width:25.5%;margin-left:1.4%;   margin-top:170px; background-color:#52d444; height:5.5px; border-radius:4px;  position:absolute; }
+
+
+#bonus2{float:right; padding-right:10px;  margin-top:100px; color:#3a352d;   font-size: 4vh; font-weight:bold;}
+#available1{float:left; margin-left:-67px;  margin-top:45px; color:#686156;  position:absolute; font-size: 2vh; font-weight:;}
+#dashboard{margin-top:80px;}
+body{background-color:#efebf8;}
+#firstcolumn,#secondcolumn,#thirdcolumn{
+
+	background-color:#fff;  height:250px;
+}
+
+/*deposit input section */
+
+#all{margin-left:5%; margin-top:30px; color:#5a5854;}
+#choose2{width:82.4%; height:37px; margin-left:69px; outline:none;margin-bottom:20px;}
+#input2{width:82.4%; height:37px; margin-left:69px;outline:none;}
+#current1{margin-bottom:20px;}
+#deposit1{margin-top:20px; display:flex; justify-content:center;}
+#depositbutton{width:100px; height:40px; background-color:#106eea; color:#fff; border-radius:15px; border:none;}
+
+
+
+
+
+#about1{float:right; padding-left:40px; text-align:;}
+#about2{float:right; padding-left:40px; text-align:center;}
+#about3{float:right; padding-right:10px; text-align:center;}
+
+
+#secondrow{
+	background-color:#fff; width:87%;margin-top:40px; height:50px;
+	text-align:center; padding-top:30px; color:#3a352d; font-weight:bold;
+}
+
+
+#tablerow{
+	background-color:#fff; width:87%;margin-top:40px; height:75%;
+	text-align:center; padding-top:30px; color:#3a352d; font-weight:bold;
+}
+
+
+table, td, th {
+    border-top: 1px solid #c9c7c4;
+}
+
+table {
+	font-family:arial;
+	margin:0 auto;
+    border-collapse: collapse;
+    width: 95%;
+}
+
+th {
+    height: 40px; font-weight:bold;
+	text-align:left; font-size:18px;
+	color:#5a5854;
+}
+caption{
+	padding-bottom:20px; font-size:2.5vh;
+}
+
+#status{background-color:#52d444; font-size:12px; padding:2.5px; color:white; border-radius:4px;  text-align:center;}
+#obj:hover{background-color:#ebe7e1;}
+td{
+	text-align:left;
+	height:50px;
+	font-size:14px;
+	color:grey;
+}
+
+ #year{color:#817e79; font-size:14px; margin-left:6%; font-weight:bold;}
+ #about3{color:#817e79; font-size:14px; margin-left:10%; font-weight:bold;}
+ #about3 a{color:#817e79; font-size:14px; text-decoration:none; font-weight:bold;}
+ #about3 a:hover{color:#a8a5a0;}
+
+
+@media screen and (max-width:960px){
+
+	/*deposit input section */
+
+#all{margin-left:3.5%; margin-top:30px; color:#5a5854;}
+#choose2{width:74%; height:37px; margin-left:59px; outline:none;margin-bottom:20px;}
+#input2{width:74%; height:37px; margin-left:59px;outline:none;}
+#current1{margin-bottom:20px;}
+#deposit1{margin-top:20px; display:flex; justify-content:center;}
+#depositbutton{width:100px; height:40px; background-color:#106eea; color:#fff; border-radius:15px; border:none;}
+
+
+}
+
+@media screen and (max-width:800px) {
+
+#choose2{margin-left:0px; margin-top:30px; margin-bottom:30px; width:90%; }
+#input2{margin-left:0px; margin-top:30px; margin-bottom:0px; width:90%; }
+#add2{position:absolute;}
+#amount2{position:absolute;}
+#firstcolumn{height:400px;}
+#deposit1{margin-left:;}
+
+	#dashboard{margin-top:30px;}
+	#year{text-align:center;}
+
+	 #year{color:#817e79; font-size:14px; margin-left:1%; font-weight:bold;}
+	#about3{color:#817e79; font-size:14px; margin-left:0%; font-weight:bold;}
+
+
+	#secondrow{width:94%;}
+	#tablerow{width:94%;}
+	#line{width:89%; }
+.row{display:block;}
+
+    .column {
+        width:94%;
+		margin-left:10px;
+    }
+
+
+	#about3{}
+
+}
+
+
+
+@media screen and (max-width:500px) {
+	#dashboard{margin-top:30px;}
+	table{width:500px;}
+	#secondrow{width:94%;}
+	#tablerow{width:94%;}
+	#line{width:89%; }
+.row{display:block;}
+
+    .column {
+        width:94%;
+		margin-left:10px;
+    }
+
+
+	 #year{color:#817e79; font-size:14px; margin-left:2%; font-weight:bold;}
+	#about3{color:#817e79; font-size:14px; margin-left:0%; font-weight:bold;}
+	#about3 a{color:#817e79; text-decoration:none;}
+
+}

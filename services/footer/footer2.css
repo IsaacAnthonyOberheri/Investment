@@ -1,0 +1,305 @@
+/* link styling */
+.news_input button:hover{
+	background:linear-gradient(to bottom right,#106eea, purple);
+}
+
+.left_column1 a{
+	color:black;
+	text-decoration:none;
+	
+}
+
+
+.left_column1 a:hover{
+	background:linear-gradient(to bottom right,#106eea, purple);
+	
+}
+
+
+.left_column2 a{
+	color:black;
+		text-decoration:none;
+	
+}
+
+
+.left_column2 a:hover{
+	color:#106eea;
+	
+}
+
+
+
+.right_column1 a{
+	color:black;
+		text-decoration:none;
+}
+.right_column1 a:hover{
+	color:#106eea;
+	
+}
+
+
+
+
+	
+.right_column2 a {
+	color:black;
+		text-decoration:none;
+}	
+.right_column2 a:hover{
+	color:#106eea;
+	
+}
+
+
+	
+	
+	
+
+
+
+
+.column {
+  float: left;
+  width: 50%;
+ 
+  /* Should be removed. Only for demonstration */
+  font-family:roboto;
+  
+}
+
+.row{}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.left_column{
+	width:99%;
+	height:300px;
+	background-color:;
+	display:flex;
+	flex-direction:row;
+	column-gap:10px;
+	line-height:30px;
+	
+}
+
+.left_column1{
+	background-color:;
+	width:100%;
+	height:300px;
+	
+}
+
+
+.left_column2{
+	background-color:;
+	width:100%;
+	height:300px;
+	
+}
+
+
+
+.right_column{
+		width:99%;
+	height:300px;
+	background-color:;
+	display:flex;
+	flex-direction:row;
+	column-gap:10px;
+	line-height:30px;
+}
+
+
+.right_column1{
+	background-color:;
+	width:100%;
+	height:300px;
+	
+}
+
+
+.right_column2{
+	background-color:;
+	width:100%;
+	height:300px;
+	
+}
+
+.company_name,.useful_links,.company{
+	font-weight:bold;
+	font-size:24px;
+	letter-spacing:0.5px;
+	font-family:roboto;
+	margin-bottom:20px;
+}
+.email_title{
+font-weight:bold;
+font-size:18px;
+margin-top:30px;
+
+}
+
+
+.email{
+	
+}
+
+
+
+.copyright{
+	width:100%;
+	height:60px;
+	background-color:#FCF0EE;
+	display:flex;
+	align-items:center;
+	margin-left:0px;
+	
+}
+
+.copyright p{margin-left:10px;}
+.copyright span{
+	font-weight:bold;
+	margin-left:5px;
+}
+
+
+.newsletter{
+	width:99%;
+	height:300px;
+	background-color:#FCF8F8;
+text-align:center;
+	border-style: dashed;
+	margin-bottom:10px;
+	border-color:#F8D9D3;
+	border-bottom-style:;
+	border-width:7px;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	
+	
+}
+.newsletter_join{
+	margin-top:90px;
+	font-size:2em;
+	font-weight:bold;
+	letter-spacing:0.5px;
+	font-family:roboto;
+	margin-bottom:15px;
+	
+	
+	
+}
+.news_input input{
+	height:40px;
+	 box-shadow: 5px 5px 18px #EAB6AB;
+	 outline:none;
+}
+
+.news_input button{
+	width:100px;
+	height:40px;
+	background-color:#106eea;
+	border-style:none;
+	outline:none;
+	color:#ffffff;
+	border-top-right-radius:7px;
+	border-bottom-right-radius:7px;
+	letter-spacing:0.5px;
+	 box-shadow: 5px 5px 18px #EAB6AB;
+}
+
+
+.input_text{
+	width:500px;
+	border-style:none;
+	
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 850px) {
+	
+	.newsletter{
+	width:95%;
+	
+	}
+	
+	
+	
+  .column {
+    width: 100%;
+	margin-bottom:20px;
+	
+  }
+  
+.input_text{
+	width:400px;
+}
+  
+  
+  .newsletter_join{
+	margin-top:90px;
+	font-size:1.5em;
+	font-weight:bold;
+	letter-spacing:0.5px;
+	font-family:roboto;
+}
+
+
+.company_name,.useful_links,.company{
+	font-weight:bold;
+	font-size:20px;
+	letter-spacing:0.5px;
+	font-family:roboto;
+	margin-bottom:20px;
+}
+  
+  
+  
+  }
+  
+  
+@media screen and (max-width: 600px){
+	.input_text{
+	width:100px;
+}
+.column{
+	
+}
+
+.company_name,.useful_links,.company{
+	font-weight:bold;
+	font-size:18px;
+	letter-spacing:0.5px;
+	font-family:roboto;
+	margin-bottom:20px;
+}
+.address,.email,.home,.about_us,.services,.testimonials{
+	font-size:14px;
+}
+
+
+.left_column,.right_column{column-gap:20px;}
+
+.copyright{
+	font-size:12px;
+	font-family:roboto;
+}
+
+}  
+
+
+
+@media screen and (max-width: 450px){
+	.input_text{
+	width:200px;
+}
+}  

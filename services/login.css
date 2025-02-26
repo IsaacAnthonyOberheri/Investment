@@ -1,0 +1,200 @@
+#submit input{
+	color:#ffffff;
+	letter-spacing:0.5px;
+	font-weight:500;
+	font-family:roboto;
+}
+
+
+.swan_logo img{
+	
+	height:60px;
+	width:150px !important;
+	display:;
+
+}
+
+.swan_logo{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	
+	margin-left:7px;
+	
+}
+
+
+* {
+    box-sizing: border-box;
+}
+.column img{width:100%; }
+body{}
+/* Create two equal columns that floats next to each other */
+.column {
+	font-family:times-new-roman;
+    float: left;
+    width: 50%;
+
+	margin-top:-10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form input{
+
+	margin-bottom:15px;
+}
+
+.form{margin-top:30%;
+
+
+}
+#head1 a{color:#106eea;text-decoration:none;}
+#head1 a:active{color:#106eea;}
+#head1{
+	font-size:4vh;
+	color:#106eea;
+	font-weight:bold;
+
+}
+#head2{font-size:6vh;}
+#head3{font-size:2vh; color:#656469;}
+#sign{color:#106eea; padding-left:8px;}
+#sign a{color:#106eea;text-decoration:none;}
+#sign a:hover{color:#5297f3;}
+#sign a:active{color:#106eea;}
+
+
+
+#head1,#head2,#head3{
+
+display:flex;
+justify-content:center;
+margin-bottom:20px;
+
+}
+
+#email,#password,#submit,#forgotpassword{
+display:flex;
+justify-content:center;
+margin-bottom:0px;
+
+
+
+
+
+}
+
+#email{box-shadow:0px 15px 10px #e3dcdc; margin:0 auto;  width:70%; height:50px;   margin-bottom:30px;}
+#password{box-shadow:0px 15px 10px #e3dcdc;width:70%; margin:0 auto;  height:50px;   margin-bottom:30px;}
+#submit{ background-color:#106eea; height:50px; margin:0 auto; width:70%;}
+
+#email input{  outline:none; width:100%;border:0px; margin-left:10px; font-size:16px; height:50px;}
+#password input{ width:100%; margin-left:10px; outline:none; border:0px; font-size:16px; height:50px;}
+#submit input{ width:100%; outline:none; border:0px; font-size:16px; height:50px;}
+
+.email,.password{}
+#submit input{background-color:#106eea;}
+#submit input{ height:50px; border:0px;}
+
+
+#submit input:hover{
+	background-color:#5297f3;
+	}
+
+#submit:hover{
+	background-color:#5297f3;
+
+	}
+
+#forgotpassword a{
+	margin-left:50%;
+	margin-right:10px;
+	color:red;
+	font-size:2.2vh;
+
+	}
+	#forgotpassword a:hover{color:#106eea;}
+
+#forgotpassword{
+		padding-top:10px;
+}
+
+
+#errd{color:red; justify-content:center; display:flex;
+margin-top:-20px; margin-bottom:20px; font-size:18px;
+}
+#mailconfirm{color:blue; justify-content:center; display:flex;
+margin-top:-10px; margin-bottom:20px; font-size:18px;
+}
+
+
+
+
+@media screen and (max-width:900px) {
+    .column {
+        width: 100%;
+		  padding-right: 0px;
+    }
+
+	#email{box-shadow:0px 15px 10px #e3dcdc; margin:0 auto;  width:95%; height:50px;   margin-bottom:30px;}
+#password{box-shadow:0px 15px 10px #e3dcdc;width:95%; margin:0 auto;  height:50px;   margin-bottom:30px;}
+#submit{ background-color:#106eea; height:50px; margin:0 auto; width:95%;}
+
+
+#forgotpassword{
+		padding-top:10px;
+}
+
+#forgotpassword a{
+	margin-left:63%;
+	color:red;
+	font-size:2.2vh
+
+
+	}
+
+
+.form{
+
+	padding-bottom:50px;
+}
+
+
+}
+
+
+@media screen and (max-width:600px){
+	#mailconfirm{
+		font-size:14px;
+		margin-top:;
+		width:90%;
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	
+}
+
+
+@media screen and (max-width:390px){
+
+	#forgotpassword a{
+		margin-left:56%;
+	}
+}
+
+
+
+@media screen and (max-width:340px){
+
+	#forgotpassword a{
+		margin-left:57%;
+	}
+}
+

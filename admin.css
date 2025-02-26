@@ -1,0 +1,323 @@
+#all_containers{
+
+
+
+background-color:red;
+
+position:absolute;
+
+
+}
+
+body{
+	font-family: Times new roman;
+	color:;
+}
+
+.header_one{
+width:100%;
+height:100px;
+background-color:#071A52;
+
+	display:flex;
+	align-items:center;
+}
+
+.logo img{
+width:120px;
+height:70px;
+
+}
+
+.logo{
+	margin-left:20px;
+}
+
+.all_investors{
+	color:white;
+	margin-left:80px;
+	margin-top:30px;
+}
+
+.greetings{
+	float:right;
+	margin-right:20%;
+	width:200px;
+	height:50px;
+	color:white;
+	background-color:#071A52;
+	text-align:center;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-top:40px;
+	border-radius:10px;
+}
+
+.search_investor{
+	display:flex;
+	justify-content:center;
+	margin-top:150px;
+	
+}
+
+.search_investor input{
+	height:30px;
+	width:250px;
+}
+.search_investor button{
+	width:80px;
+	color:white;
+	background-color:#071A52;
+	border-style:none;
+	border-top-right-radius:7px;
+	border-bottom-right-radius:7px;
+	letter-spacing:0.5px;
+}
+
+.search_investor button:hover{
+	 background: linear-gradient(to bottom right,#071A52, purple);
+ text-decoration:none
+}
+
+.investors_header button{
+	background-color:#071A52;
+	width:200px;
+	height:40px;
+	margin-top:50px;
+	border-style:none;
+	color:white;
+	border-radius:10px;
+}
+
+.investors_header{
+	display:flex;
+	justify-content:center;
+}
+
+
+.control_buttons button{
+	background-color:#071A52;
+	width:70px;
+	height:40px;
+	margin-top:50px;
+	margin-bottom:10px;
+	border-style:none;
+	color:white;
+	border-radius:5px;
+	margin-right:20px;
+}
+
+.control_buttons button:hover{
+	background:linear-gradient(to bottom right, #071A52, purple);
+	transform:translate(2px, 2px);
+
+}
+
+
+
+.column {
+  float: left;
+  width: 50%;
+ 
+  /* Should be removed. Only for demonstration */
+  font-family:roboto;
+  column-gap:20px;
+}
+
+.row{}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column_left{
+	background-color:;
+	height:150px;
+	display:flex;
+	flex-direction:row;
+	
+}
+
+
+
+.column_right{
+	background-color:;
+	height:150px;
+	display:flex;
+	flex-direction:row;
+	
+}
+
+
+.left_column1{
+	width:100%;
+	height:150px;
+	background-color:#FBE4FC;
+}
+
+.left_column2{
+	width:100%;
+	height:150px;
+	background-color:#E8CFCF;
+}
+#amount_deposit{
+	display:;
+	display:flex;
+	justify-content:center;
+	box-shadow:2px 3px 10px black;
+	border-style:none;
+	display:none;
+}
+
+.right_column1{
+	width:100%;
+	height:150px;
+	background-color:#FBE4FC;
+}
+
+.right_column2{
+	width:100%;
+	height:150px;
+	background-color:#E8CFCF;
+}
+
+.email_header{
+	width:100%;
+	height:50px;
+	background-color:#071A52;
+	text-align:center;
+	font-weight:bold;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#ffffff;
+}
+
+.email_value{
+	text-align:center;
+	margin-top:30px;
+	color:;
+
+
+}
+
+.sum_value{
+	text-align:center;
+	margin-top:30px;
+	color:;
+
+
+}
+
+
+.balance_value{
+	text-align:center;
+	margin-top:30px;
+	color:;
+	display:flex;
+	justify-content:center;
+	height:30px;
+	
+
+}
+
+
+
+.investment_plans{
+	width:100%;
+	height:50px;
+	background-color:#071A52;
+	text-align:center;
+	font-weight:bold;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#ffffff;
+}
+
+
+.investment_balance{
+	width:100%;
+	height:50px;
+	background-color:#071A52;
+	text-align:center;
+	font-weight:bold;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	color:#ffffff;
+}
+
+.select_plans{
+	width:80%;
+	text-align:center;
+	height:30px;
+}
+
+.select_p{
+	
+	display:flex;
+	justify-content:center;
+	margin-top:30px;
+	
+}
+
+.deposit_confirmation{
+	width:100%;
+	visibility:none;
+	opacity:0;
+	text-align:center;
+	/*transition: opacity 0.5s ease-in-out;*/
+}
+
+.deposit_confirm{
+	color:white;
+font-family: "Times New Roman", Times, serif;
+display:none;
+
+	text-align:center;
+		display:flex;
+		justify-content:center;
+	align-items:center;
+	background-color:green;
+	width:200px;
+	height:50px;
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 850px) {
+  .column {
+    width: 100%;
+	margin-bottom:20px;
+	
+  }
+  
+  .column_left, .column_right{
+	  /* flex-direction:column; */
+  }
+  
+}
+  
+  
+@media screen and (max-width:600px){
+	
+	.search_investor input{
+	height:30px;
+	width:150px;
+}
+
+.search_investor button{
+	width:60px;
+	font-size:13px;
+}
+
+.investors_header button{
+	width:140px;
+}
+
+}  

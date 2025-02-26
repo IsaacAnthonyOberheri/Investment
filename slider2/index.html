@@ -1,0 +1,131 @@
+<!doctype html>
+<head>
+<link rel='stylesheet' href='css/style.css'>
+<script src="https://kit.fontawesome.com/7c1792080b.js" crossorigin="anonymous"></script>
+<meta name='viewport' content='width=device-width, initial-scale=1.0' >
+
+
+</head>
+
+<body>
+<!--
+algorithm behind the image slider
+1. create images of same width and height
+2. create html div tags for the image with same class title
+3. set all the div tags under one div class container
+4. set the images with same div tag using css properties, with position:absolute, top:0px;
+5. add active to the first image class e.g, <div class='slider active'><img src=''> </div>
+6. the div tag of the rest images called slider should be set to opacity:0;
+7. set the div class active to opacity:1; visibility:visible;
+8.create a javascript tag or <fieldset>
+9. use the javascript document.getElementsByClassName(), add, remove, classList method to create the effect for the next and previous
+options
+10. use the setInterval() method to make it flow continously
+............goodLuck
+
+</fieldset>
+</fieldset>
+
+
+
+
+-->
+<div id='all_slider'onscroll='scro()' class='all_slider'>
+
+  <div class='slide_container' >
+
+<div  class='slider' >
+
+            <div id='last' class='slider_img'>
+                 <img src='img/slider3.jpg' width=''  >
+                    <div id='moving_text' class=' moving_text'>
+                        <div id='last_title'>Reliable Simple and Innovative</div>
+                        <p>sub of hello world1</p>
+                  </div>
+            </div>
+
+
+
+            <div id='second' class='slider_img'>
+              <img src='img/slider1.png' width=''  >
+                 <div id='moving_text' class=' moving_text'>
+                     <div id='titl'>Hello World</div>
+                     <p>sub of hello world2</p>
+               </div>
+         </div>
+
+
+         <div id='third' class='slider_img'>
+          <img src='img/slider2.jpg' width=''  >
+             <div id='moving_text' class=' moving_text'>
+                 <div id='titl'>Hello World</div>
+                 <p>sub of hello world3</p>
+           </div>
+     </div>
+
+
+
+
+<div id='fourth' class='slider_img'>
+  <img src='img/slider3.jpg' width=''  >
+      <div id='moving_text' class=' moving_text'>
+        <div id='titl'>Hello World</div>
+         <p>sub of hello world last</p>
+      </div>
+</div>
+
+
+
+
+
+<div id='first' class='slider_img'>
+    <img src='img/slider1.png' width="" >
+    
+
+
+</div>
+
+
+</div>
+
+</div>
+
+
+</div>
+
+<button id='prev' class='btn_prev' onclick='prev()'><i class='fas fa-arrow-left'> </i> </button>
+<button id='next' class='btn_next' onclick='nextt()'><i class='fas fa-arrow-right'> </i> </button>
+
+<br><br>
+<div >
+<input type='radio' id='first' class='radio_buttons' name='slides'>
+
+<input type='radio' id='second' class='radio_buttons' name='slides'>
+
+<input type='radio' id='third' class='radio_buttons' name='slides'>
+
+</div>
+
+
+<script src='slider_slides.js'></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

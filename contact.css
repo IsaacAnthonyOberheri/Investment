@@ -1,0 +1,305 @@
+
+/*link styles*/
+
+
+  .contact_form{
+	margin-top:150px;
+	width:98%;
+	/* background-color: red; */
+	padding-bottom:50px;
+	
+}
+
+
+
+.submit a{
+	color:white;
+	text-decoration:none;
+	
+}
+
+
+.submit button:hover{
+ background: linear-gradient(to bottom right,#106eea, purple);
+ transform:translate(3px, 3px);
+ transition:transform 0.7s;
+ 	text-decoration:none;
+	
+}
+
+
+
+.submit button:active{
+ background: linear-gradient(to bottom right,#106eea, purple);
+  transform:translate(2px, 2px);
+	transition:transform 0.7s;
+	
+}
+
+
+/*end of link styles*/
+
+
+
+
+
+
+
+.contact_form{
+	margin-top:150px;
+	
+}
+
+
+.need_prof{
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:10px;
+
+}
+
+.need_prof button{
+	background-color:#106eea;
+	color:#ffffff;
+	height:30px;
+	outline:none;
+	font-family:roboto;
+	letter-spacing:0.5px;
+	border-style:none;
+	width:200px;
+	border-radius:5px;
+}
+
+.contact_us{
+	
+	text-align:center;
+	margin-bottom:30px;
+	font-weight:bold;
+	font-size:2.1em;
+	letter-spacing:0.5px;
+	color:#106eea;
+	font-family:roboto;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  /* Should be removed. Only for demonstration */
+  font-family:roboto;
+  
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.addr_icon{
+	border-style:dashed;
+	border-color:#106eea;
+	border-radius:1000px;
+	background-color:;
+	width:50px;
+	height:50px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:10px;
+	
+}
+
+.addr{
+	margin-bottom:10px;
+	font-size:20px;
+}
+
+
+
+.address_bar{
+	width:99%;
+	height:150px;
+	background-color:white;
+	text-align:center;
+	 box-shadow: 5px 5px 18px #EAB6AB;
+	
+	
+}
+
+.main_addr{
+	font-size:0.9em;
+}
+
+
+
+
+.address_details{
+display:block;
+padding-top:12px;
+margin-bottom:10px;
+}
+
+.email_column{
+	background-color:white;
+	width:99%;
+	height:150px;
+	margin-bottom:20px;
+	box-shadow: 5px 5px 18px #EAB6AB;
+	text-align:center;
+}
+
+.email_details{
+display:block;
+padding-top:12px;
+margin-bottom:10px;
+}
+
+.email_icon{
+	border-style:dashed;
+	border-color:#106eea;
+	border-radius:1000px;
+	background-color:;
+	width:50px;
+	height:50px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:10px;
+	
+}
+
+.email_us{
+		margin-bottom:10px;
+	font-size:20px;
+}
+
+
+
+
+.phone_number{
+	
+	background-color:white;
+	width:99%;
+	height:150px;
+	margin-bottom:20px;
+	box-shadow: 5px 5px 18px #EAB6AB;
+	text-align:center;
+}
+
+
+.row{display:flex;}
+
+.contact_column{
+	display:flex;
+	flex-direction:row;
+	column-gap:20px;
+}
+.google_addr{
+	background-color:;
+	height:550px;
+	width:99%;
+}
+
+.form_data1{
+	width:99%;
+	background-color:;
+	height:50px;
+	display:flex;
+	flex-direction:row;
+	margin-bottom:20px;
+
+	column-gap:15px;
+}
+
+.form_data1 input{width:99%; height:43px; }
+
+.column_email{width:99%;  height:43px; }
+
+.column_name{width:99%; height:43px; }
+
+
+.subject{
+	
+	 height:43px; display:flex;
+	width:99%;
+	margin-bottom:20px;
+}
+
+.subject input{width:99%; }
+
+.message{margin-bottom:25px;}
+
+.message textarea{
+	width:99%;
+}
+
+.submit{
+display:flex;
+justify-content:center;
+
+
+}
+
+.submit button{
+background-color:#106eea;
+color:#ffffff;
+width:180px;
+height:40px;
+border-style:none;
+outline:none;
+letter-spacing:0.5px;
+font-family:roboto;
+border-radius:5px;
+font-size:14px;
+font-weight:500;
+
+}
+
+
+
+
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 850px) {
+	
+	.contact_form{
+	margin-top:150px;
+	width:96%;
+	/* background-color: red; */
+	padding-bottom:50px;
+	
+}
+	
+	
+  .column {
+    width: 100%;
+  }
+  
+  .message textarea{
+	width:98%;
+}
+
+  
+  .row{flex-direction:column;}
+  
+  .contact_column{
+  flex-direction:column;
+  }
+
+
+  .subject input{width:100%; }
+
+  .form_data1{
+	  flex-direction:column;
+  }
+  
+  .form_data1 input{width:99%; margin-bottom:35px; height:40px;}
+  .form_data1{
+	  margin-bottom:70px;
+  }
+}
